@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>SignUp</title>
+</head>
+
+<body>
+    <div class="container my-5">
+        <div class="row align-items-center justify-content-center">
+            <div class="col-md-8 text-center log p-5">
+                <h1>Smart Login System</h1>
+                <input id="signupName" class="form-control my-3" placeholder="Enter your name" type="text">
+                <input id="signupEmail" class="form-control my-3" placeholder="Enter your email" type="email">
+                <input id="signupPassword" class="form-control my-3" placeholder="Enter  password" type="password">
+                <p class="exist text-danger"></p>
+                <p class="text-success d-none Success">Success</p>
+                <button  class="btn btn-outline-info w-100 my-3 Sign-Up">Sign Up</button>
+                <p class="text-white">You have an account? <a class="text-white" href="index.html">Sign in</a></p>
+                <ul>
+                    <li class="text-start nameCheck">Name Must have first letter captile and minuim 3 charcter</li>
+                    <li class="text-start mailCheack">Email must be a real mail</li>
+                    <li class="text-start passCheck">passwoed must have a captile and numbers and minuim 5</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <script src="bootstrap.bundle.min.js"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>
